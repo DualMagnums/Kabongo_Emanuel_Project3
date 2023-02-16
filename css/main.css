@@ -1,0 +1,64 @@
+#boxes {
+    color: white;
+    display: block;
+}
+
+#boxes .box1 {
+    background-color: rgb(247, 75, 158);
+    height: 250px;
+    width: 100%;
+}
+
+#boxes .box2 {
+    background-color: rgb(175, 6, 6);
+    height: 250px;
+    width: 100%;
+}
+
+#boxes .box3 {
+    background-color: grey;
+    display: none;
+    height: 250px;
+    width: 100%;
+}
+
+#boxes .box4 {
+    display: none;
+    background-color: rgb(81, 36, 8);
+    height: 250px;
+    width: 100%;
+}
+
+@media screen and (min-width: 641px) {
+    
+#boxes {
+    display: flex;
+}
+
+#boxes .box1 {
+    background-color: blue ;
+    height: 500px;
+    width: 200px;
+}
+
+#boxes .box2 {
+    background-color: purple;
+    height: 500px;
+    width: 200px;
+}
+
+#boxes .box3 {
+    background-color: grey;
+    display: flex;
+    height: 500px;
+    width: 200px;
+}
+
+#boxes .box4 {
+    background-color: rgb(81, 36, 8);
+    display: flex;
+    height: 500px;
+    width: 200px;
+}
+
+}
